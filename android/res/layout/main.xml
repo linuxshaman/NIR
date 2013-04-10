@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:id="@+id/startButton" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:onClick="startButton_click"
+            />
+    <Button
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:id="@+id/endButton" android:layout_toRightOf="@+id/startButton" android:layout_alignTop="@+id/startButton"
+            android:onClick="endButton_click"
+            />
+    <Button
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="Load"
+            android:id="@+id/loadButton" android:layout_toRightOf="@+id/endButton" android:layout_alignTop="@+id/startButton"
+            android:layout_marginLeft="5dp" android:layout_alignRight="@+id/textView"
+            android:onClick="loadButton_click"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" android:layout_alignLeft="@+id/startButton" android:layout_below="@+id/startButton"
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
