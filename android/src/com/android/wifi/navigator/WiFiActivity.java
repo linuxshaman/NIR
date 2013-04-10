@@ -102,24 +102,26 @@ public class WiFiActivity extends Activity {
         public void onReceive(Context context, Intent intent) {
             Building b = parser.getBuilding();
             if(b != null){
-                StringBuilder sb = new StringBuilder(scanResult.getText());
-                sb.append("\n------------------NEW-RESULT-------------------\n");
                 List<ScanResult> results = wifi.getScanResults();
-                for(ScanResult res : results){
-                    sb.append(res.SSID);
-                    sb.append(" | ");
-                    sb.append(res.level);
-                    sb.append("\n");
-                }
-                sb.append("------------------------------------------------\n");
-                String s = sb.toString();
-                scanResult.setText(s.toCharArray(), 0, s.length());
-
                 AlgorithmData data = new AlgorithmData(b, results);
                 Vector2D a1 = Algorithm.algorithm3(data);
                 Vector2D a2 = Algorithm.algorithm4(data);
                 Vector2D a3 = Algorithm.algorithm5(data);
                 logger.addTimesStep(new TimeStepData(data, a1, a2, a3));
+                StringBuilder sb = new StringBuilder(scanResult.getText());
+                sb.append("\n------------------NEW-RESULT-------------------\n");
+                sb.append("Algorithm 1 coords: ");
+                sb.append(a1.toString());
+                sb.append("\n");
+                sb.append("Algorithm 2 coords: ");
+                sb.append(a2.toString());
+                sb.append("\n");
+                sb.append("Algorithm 3 coords: ");
+                sb.append(a3.toString());
+                sb.append("\n");
+                sb.append("------------------------------------------------\n");
+                String s = sb.toString();
+                scanResult.setText(s.toCharArray(), 0, s.length());
         }
 }
     }

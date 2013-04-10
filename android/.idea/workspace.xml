@@ -37,7 +37,7 @@
     <file path="/Level.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1362974567340" ignored="false" />
     <file path="/Building.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1365608314084" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1362982797757" ignored="false" />
-    <file path="/WiFiActivity.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1365611978631" ignored="false" />
+    <file path="/WiFiActivity.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1365615623749" ignored="false" />
     <file path="/main.xml" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1365436930814" ignored="false" />
     <file path="/fragment.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1363018082537" ignored="false" />
     <file path="/WiFiReciver.java" changelist="28ad4cbf-7404-4c09-b59a-ed49d216ea06" time="1363017695690" ignored="false" />
@@ -118,7 +118,16 @@
       <file leaf-file-name="WiFiActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/WiFiActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
+            <state line="121" column="81" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Algorithm.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/algorithms/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="22" selection-start="3001" selection-end="3007" vertical-scroll-proportion="0.25951558">
               <folding />
             </state>
           </provider>
@@ -136,7 +145,7 @@
       <file leaf-file-name="DateFormat.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/android/sdk/platforms/android-10/android.jar!/java/text/DateFormat.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="5674" selection-end="5674" vertical-scroll-proportion="0.0">
+            <state line="119" column="0" selection-start="5707" selection-end="5707" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,19 +154,17 @@
       <file leaf-file-name="Format.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/android/sdk/platforms/android-10/android.jar!/java/text/Format.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WiFILogger.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WiFILogger.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/log/WiFILogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="43" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.5555556">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="55" column="69" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,15 +205,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapChooser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/MapChooser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="105" selection-start="873" selection-end="963" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -236,10 +234,10 @@
         <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/MapChooser.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/json/JSONParser.java" />
-        <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/WiFiActivity.java" />
         <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/log/TimeStepData.java" />
         <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/algorithms/WifiData.java" />
         <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/log/WiFILogger.java" />
+        <option value="$PROJECT_DIR$/src/com/android/wifi/navigator/WiFiActivity.java" />
       </list>
     </option>
   </component>
@@ -274,8 +272,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,29 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WIFINavigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
+              <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,6 +364,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,14 +561,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1968" sideWeight="0.4939394" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1616" sideWeight="0.28484848" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5280303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80701756" sideWeight="0.70984846" order="7" side_tool="false" content_ui="tabs" />
@@ -600,8 +576,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.8384" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39159665" sideWeight="0.46946564" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.9904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.46666667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32701063" sideWeight="0.9536" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32701063" sideWeight="0.9536" order="2" side_tool="false" content_ui="tabs" />
@@ -683,11 +659,6 @@
         <state line="80" column="36" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/algorithms/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/map/WiFiSpot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="47" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" />
@@ -726,14 +697,14 @@
     </entry>
     <entry file="jar://$USER_HOME$/android/sdk/platforms/android-10/android.jar!/java/text/DateFormat.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="5674" selection-end="5674" vertical-scroll-proportion="0.0">
+        <state line="119" column="0" selection-start="5707" selection-end="5707" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android/sdk/platforms/android-10/android.jar!/java/text/Format.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+        <state line="24" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -752,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/WiFiActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/log/TimeStepData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="33" selection-start="1348" selection-end="1356" vertical-scroll-proportion="0.0">
@@ -768,10 +732,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/log/WiFILogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="43" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.5555556">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="55" column="69" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/WiFiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="81" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/wifi/navigator/algorithms/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="22" selection-start="3001" selection-end="3007" vertical-scroll-proportion="0.25951558">
+          <folding />
         </state>
       </provider>
     </entry>
