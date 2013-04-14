@@ -26,7 +26,7 @@ public class Algorithm {
                     WifiData wData = data.spotsData.get(i);
                     float rasstI = (float)Math.log10(rasst(x, y, wData.spot.getX(), wData.spot.getY()));
                     float rasst0 = (float)Math.log10(rasst(x, y, w0Data.spot.getX(), w0Data.spot.getY()));
-                    a = wData.rssi / w0Data.rssi - rasstI / rasst0;
+                    a = (float)wData.rssi / (float)w0Data.rssi - rasstI / rasst0;
 
                     a = (float)Math.pow(a, 2);
                     sum += a;
@@ -65,7 +65,7 @@ public class Algorithm {
                     WifiData wData = data.spotsData.get(i);
                     float rasstI = l0 - n * 10 *(float)Math.log10(rasst(x, y, wData.spot.getX(), wData.spot.getY()));
                     float rasst0 = l0 - n * 10 * (float)Math.log10(rasst(x, y, w0Data.spot.getX(), w0Data.spot.getY()));
-                    a = wData.rssi / w0Data.rssi - rasstI / rasst0;
+                    a = (float)wData.rssi / (float)w0Data.rssi - rasstI / rasst0;
 
                     a = (float)Math.pow(a, 2);
                     sum += a;
@@ -105,7 +105,7 @@ public class Algorithm {
                     WifiData wData = data.spotsData.get(i);
                     float rasstI = l0 - n * 10 *(float)Math.log10(rasst(x, y, wData.spot.getX(), wData.spot.getY()));
                     float rasst0 = l0 - n * 10 * (float)Math.log10(rasst(x, y, w0Data.spot.getX(), w0Data.spot.getY()));
-                    a = wData.rssi - w0Data.rssi - rasstI - rasst0;
+                    a = (float)wData.rssi / (float)w0Data.rssi - rasstI / rasst0;
 
                     a = (float)Math.pow(a, 2);
                     sum += a;
