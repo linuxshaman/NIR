@@ -74,7 +74,7 @@ public class WiFiActivity extends Activity {
             public void run() {
                 timerMethod();
             }
-        }, 0, 6000);
+        }, 0, 2000);
     }
 
     private void stopScan(){
@@ -108,7 +108,7 @@ public class WiFiActivity extends Activity {
                 Vector2D a2 = Algorithm.algorithm4(data);
                 Vector2D a3 = Algorithm.algorithm5(data);
                 logger.addTimesStep(new TimeStepData(data, a1, a2, a3));
-                StringBuilder sb = new StringBuilder(scanResult.getText());
+                StringBuilder sb = new StringBuilder("");
                 sb.append("\n------------------NEW-RESULT-------------------\n");
                 sb.append("Algorithm 1 coords: ");
                 sb.append(a1.toString());

@@ -5,6 +5,7 @@ import android.util.Log;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -53,7 +54,7 @@ public class WiFILogger {
             FileOutputStream fos = new FileOutputStream(logFile);
             fos.write(string().getBytes());
             fos.close();
-        }catch (Exception e){
+        }catch (IOException e){
             Log.d("INF", e.toString());
         }
 
